@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Development\\Yazilim-Egitim2025-26\\ilkProjem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6A4AAF52-5084-4596-83C7-1DB8398B61B7}|ilkProjem\\ilkProjem.csproj|f:\\development\\yazilim-egitim2025-26\\ilkprojem\\ilkprojem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A4AAF52-5084-4596-83C7-1DB8398B61B7}|ilkProjem\\ilkProjem.csproj|solutionrelative:ilkprojem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Development\\Yazilim-Egitim2025-26\\ilkProjem\\ilkProjem\\Program.cs",
+              "RelativeDocumentMoniker": "ilkProjem\\Program.cs",
+              "ToolTip": "F:\\Development\\Yazilim-Egitim2025-26\\ilkProjem\\ilkProjem\\Program.cs",
+              "RelativeToolTip": "ilkProjem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T18:00:29.831Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

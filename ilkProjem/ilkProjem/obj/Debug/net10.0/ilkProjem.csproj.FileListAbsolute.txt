@@ -1,0 +1,14 @@
+F:\Development\Yazilim-Egitim2025-26\ilkProjem\ilkProjem\bin\Debug\net10.0\ilkProjem.exe
+F:\Development\Yazilim-Egitim2025-26\ilkProjem\ilkProjem\bin\Debug\net10.0\ilkProjem.deps.json
+F:\Development\Yazilim-Egitim2025-26\ilkProjem\ilkProjem\bin\Debug\net10.0\ilkProjem.runtimeconfig.json
+F:\Development\Yazilim-Egitim2025-26\ilkProjem\ilkProjem\bin\Debug\net10.0\ilkProjem.dll
+F:\Development\Yazilim-Egitim2025-26\ilkProjem\ilkProjem\bin\Debug\net10.0\ilkProjem.pdb
+F:\Development\Yazilim-Egitim2025-26\ilkProjem\ilkProjem\obj\Debug\net10.0\ilkProjem.GeneratedMSBuildEditorConfig.editorconfig
+F:\Development\Yazilim-Egitim2025-26\ilkProjem\ilkProjem\obj\Debug\net10.0\ilkProjem.AssemblyInfoInputs.cache
+F:\Development\Yazilim-Egitim2025-26\ilkProjem\ilkProjem\obj\Debug\net10.0\ilkProjem.AssemblyInfo.cs
+F:\Development\Yazilim-Egitim2025-26\ilkProjem\ilkProjem\obj\Debug\net10.0\ilkProjem.csproj.CoreCompileInputs.cache
+F:\Development\Yazilim-Egitim2025-26\ilkProjem\ilkProjem\obj\Debug\net10.0\ilkProjem.dll
+F:\Development\Yazilim-Egitim2025-26\ilkProjem\ilkProjem\obj\Debug\net10.0\refint\ilkProjem.dll
+F:\Development\Yazilim-Egitim2025-26\ilkProjem\ilkProjem\obj\Debug\net10.0\ilkProjem.pdb
+F:\Development\Yazilim-Egitim2025-26\ilkProjem\ilkProjem\obj\Debug\net10.0\ilkProjem.genruntimeconfig.cache
+F:\Development\Yazilim-Egitim2025-26\ilkProjem\ilkProjem\obj\Debug\net10.0\ref\ilkProjem.dll
