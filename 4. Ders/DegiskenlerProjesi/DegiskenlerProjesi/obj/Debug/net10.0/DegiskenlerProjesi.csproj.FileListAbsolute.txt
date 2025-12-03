@@ -1,0 +1,15 @@
+F:\Development\Yazilim-Egitim2025-26\4. Ders\DegiskenlerProjesi\DegiskenlerProjesi\bin\Debug\net10.0\DegiskenlerProjesi.exe
+F:\Development\Yazilim-Egitim2025-26\4. Ders\DegiskenlerProjesi\DegiskenlerProjesi\bin\Debug\net10.0\DegiskenlerProjesi.deps.json
+F:\Development\Yazilim-Egitim2025-26\4. Ders\DegiskenlerProjesi\DegiskenlerProjesi\bin\Debug\net10.0\DegiskenlerProjesi.runtimeconfig.json
+F:\Development\Yazilim-Egitim2025-26\4. Ders\DegiskenlerProjesi\DegiskenlerProjesi\bin\Debug\net10.0\DegiskenlerProjesi.dll
+F:\Development\Yazilim-Egitim2025-26\4. Ders\DegiskenlerProjesi\DegiskenlerProjesi\bin\Debug\net10.0\DegiskenlerProjesi.pdb
+F:\Development\Yazilim-Egitim2025-26\4. Ders\DegiskenlerProjesi\DegiskenlerProjesi\obj\Debug\net10.0\DegiskenlerProjesi.GeneratedMSBuildEditorConfig.editorconfig
+F:\Development\Yazilim-Egitim2025-26\4. Ders\DegiskenlerProjesi\DegiskenlerProjesi\obj\Debug\net10.0\DegiskenlerProjesi.AssemblyInfoInputs.cache
+F:\Development\Yazilim-Egitim2025-26\4. Ders\DegiskenlerProjesi\DegiskenlerProjesi\obj\Debug\net10.0\DegiskenlerProjesi.AssemblyInfo.cs
+F:\Development\Yazilim-Egitim2025-26\4. Ders\DegiskenlerProjesi\DegiskenlerProjesi\obj\Debug\net10.0\DegiskenlerProjesi.csproj.CoreCompileInputs.cache
+F:\Development\Yazilim-Egitim2025-26\4. Ders\DegiskenlerProjesi\DegiskenlerProjesi\obj\Debug\net10.0\DegiskenlerProjesi.sourcelink.json
+F:\Development\Yazilim-Egitim2025-26\4. Ders\DegiskenlerProjesi\DegiskenlerProjesi\obj\Debug\net10.0\DegiskenlerProjesi.dll
+F:\Development\Yazilim-Egitim2025-26\4. Ders\DegiskenlerProjesi\DegiskenlerProjesi\obj\Debug\net10.0\refint\DegiskenlerProjesi.dll
+F:\Development\Yazilim-Egitim2025-26\4. Ders\DegiskenlerProjesi\DegiskenlerProjesi\obj\Debug\net10.0\DegiskenlerProjesi.pdb
+F:\Development\Yazilim-Egitim2025-26\4. Ders\DegiskenlerProjesi\DegiskenlerProjesi\obj\Debug\net10.0\DegiskenlerProjesi.genruntimeconfig.cache
+F:\Development\Yazilim-Egitim2025-26\4. Ders\DegiskenlerProjesi\DegiskenlerProjesi\obj\Debug\net10.0\ref\DegiskenlerProjesi.dll
