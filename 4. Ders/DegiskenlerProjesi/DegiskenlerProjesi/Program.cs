@@ -26,6 +26,9 @@ Console.WriteLine(10 * 5);
 Console.WriteLine(10 / 2);
 
 sayi1 = 50;
+//sayi1 = "ahmet";
+
+Console.WriteLine(sayi1);
 
 int sayi2 = 10;
 

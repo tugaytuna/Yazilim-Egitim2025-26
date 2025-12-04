@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DegiskenlerProjesi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4017f94455e6070c325414f442b7d1b05a9596b4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0230d9196475ba31341d0c58fe6c2b30c9287be8")]
 [assembly: System.Reflection.AssemblyProductAttribute("DegiskenlerProjesi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DegiskenlerProjesi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
