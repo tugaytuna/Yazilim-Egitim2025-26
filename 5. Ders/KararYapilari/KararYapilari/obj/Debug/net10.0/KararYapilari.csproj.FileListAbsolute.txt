@@ -1,0 +1,15 @@
+F:\Development\Yazilim-Egitim2025-26\5. Ders\KararYapilari\KararYapilari\bin\Debug\net10.0\KararYapilari.exe
+F:\Development\Yazilim-Egitim2025-26\5. Ders\KararYapilari\KararYapilari\bin\Debug\net10.0\KararYapilari.deps.json
+F:\Development\Yazilim-Egitim2025-26\5. Ders\KararYapilari\KararYapilari\bin\Debug\net10.0\KararYapilari.runtimeconfig.json
+F:\Development\Yazilim-Egitim2025-26\5. Ders\KararYapilari\KararYapilari\bin\Debug\net10.0\KararYapilari.dll
+F:\Development\Yazilim-Egitim2025-26\5. Ders\KararYapilari\KararYapilari\bin\Debug\net10.0\KararYapilari.pdb
+F:\Development\Yazilim-Egitim2025-26\5. Ders\KararYapilari\KararYapilari\obj\Debug\net10.0\KararYapilari.GeneratedMSBuildEditorConfig.editorconfig
+F:\Development\Yazilim-Egitim2025-26\5. Ders\KararYapilari\KararYapilari\obj\Debug\net10.0\KararYapilari.AssemblyInfoInputs.cache
+F:\Development\Yazilim-Egitim2025-26\5. Ders\KararYapilari\KararYapilari\obj\Debug\net10.0\KararYapilari.AssemblyInfo.cs
+F:\Development\Yazilim-Egitim2025-26\5. Ders\KararYapilari\KararYapilari\obj\Debug\net10.0\KararYapilari.csproj.CoreCompileInputs.cache
+F:\Development\Yazilim-Egitim2025-26\5. Ders\KararYapilari\KararYapilari\obj\Debug\net10.0\KararYapilari.sourcelink.json
+F:\Development\Yazilim-Egitim2025-26\5. Ders\KararYapilari\KararYapilari\obj\Debug\net10.0\KararYapilari.dll
+F:\Development\Yazilim-Egitim2025-26\5. Ders\KararYapilari\KararYapilari\obj\Debug\net10.0\refint\KararYapilari.dll
+F:\Development\Yazilim-Egitim2025-26\5. Ders\KararYapilari\KararYapilari\obj\Debug\net10.0\KararYapilari.pdb
+F:\Development\Yazilim-Egitim2025-26\5. Ders\KararYapilari\KararYapilari\obj\Debug\net10.0\KararYapilari.genruntimeconfig.cache
+F:\Development\Yazilim-Egitim2025-26\5. Ders\KararYapilari\KararYapilari\obj\Debug\net10.0\ref\KararYapilari.dll
