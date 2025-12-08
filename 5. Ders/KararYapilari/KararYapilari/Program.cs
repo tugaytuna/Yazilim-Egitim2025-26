@@ -11,8 +11,8 @@ int yas = 20;
 Console.WriteLine(isim1 + " " + yas);
 
 // degisken tipi - degiskenismi - = degeri ;
-bool admin = true; // doğru
-bool uygun = false; // yanlış
+bool admin = false; // doğru
+bool uygun = true; // yanlış
 
 yas = 25;
 
@@ -24,6 +24,10 @@ else
 {
     Console.WriteLine("18 yaşından küçüksünüz!");
 }
+
+
+
+
 
 if (isim1 == "tugaytuna") 
 {

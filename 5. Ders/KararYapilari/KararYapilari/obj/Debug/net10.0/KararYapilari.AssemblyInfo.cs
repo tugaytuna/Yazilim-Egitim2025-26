@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KararYapilari")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc265231b50c50d5f3d29fa41d997a584948de26")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a155f6b782d81fb78ce11abf3b1c057906b183a6")]
 [assembly: System.Reflection.AssemblyProductAttribute("KararYapilari")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KararYapilari")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
