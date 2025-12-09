@@ -41,6 +41,7 @@ int sayi2 = 20;
 // FALSE - FALSE -> FALSE
 
 
+
 if (sayi1 >= 18 && sayi1 <= 30)
 {
     Console.WriteLine("Sayı 18 ile 30 arasındadır!");
@@ -60,6 +61,7 @@ else
 // TRUE - FALSE -> TRUE
 // FALSE - TRUE -> TRUE
 // FALSE - FALSE -> FALSE
+
 
 
 if (isim == "tugay" || isim == "tuna")
