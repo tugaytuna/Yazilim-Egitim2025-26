@@ -12,7 +12,8 @@ Console.WriteLine("Hoşgeldin " + kisim);
 
 
 Console.WriteLine("Lütfen yaşınızı giriniz:");
-int yas = int.Parse(Console.ReadLine());
+//int yas = int.Parse(Console.ReadLine());
+int yas = Convert.ToInt32(Console.ReadLine());
 
 
 
