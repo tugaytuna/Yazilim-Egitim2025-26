@@ -17,7 +17,7 @@ string ksifre = Console.ReadLine();
 
 
 
-
+int girisBasarili = 0;
 for (int i = 0; i < kullaniciAdlari.Length; i++)
 {
     if (kullaniciAdlari[i] == kadi)
@@ -25,15 +25,28 @@ for (int i = 0; i < kullaniciAdlari.Length; i++)
         if (kullaniciSifre[i] == ksifre)
         {
             Console.WriteLine("Giriş başarılı!");
+            girisBasarili = 2;
             break;
         }
         else
         {
-            Console.WriteLine("Şifre yanlış!");
+            girisBasarili = 1;
             break;
         }
+
+    }
+    else
+    {
+        girisBasarili = 3;
+        
     }
 
 }
 
 
+if(girisBasarili == 3)
+{
+    Console.WriteLine("Kullanıcı adı yanlış!");
+}else if (girisBasarili == 1) {
+    Console.WriteLine("Şifre yanlış!");
+}
