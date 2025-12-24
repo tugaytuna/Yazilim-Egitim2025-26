@@ -27,6 +27,7 @@ foreach (int item in sayilarListesi)
 
 // Dizideki en son elemanı siler
 //sayilarListesi.RemoveAt(sayilarListesi.Count - 1);
+//Console.WriteLine(sayilarListesi[sayilarListesi.Count -1]);
 
 // Bir koşula göre silme işlemi
 //sayilarListesi.RemoveAll(item => item > 25);
@@ -34,10 +35,16 @@ foreach (int item in sayilarListesi)
 //Tüm listeyi temizler/sıfırlar
 //sayilarListesi.Clear();
 
+sayilarListesi.RemoveAt(2);
 sayilarListesi.Insert(2,10);
 
 
+
 sayilarListesi.AddRange(new List<int>() { 5, 47, 11 });
+//sayilarListesi.Add(5);
+//sayilarListesi.Add(47);
+//sayilarListesi.Add(11);
+
 
 Console.WriteLine("For döngüsü ile tüm liste ekrana yazdırılır!");
 for (int i = 0; i < sayilarListesi.Count; i++)
@@ -45,13 +52,13 @@ for (int i = 0; i < sayilarListesi.Count; i++)
     Console.WriteLine(sayilarListesi[i]);
 }
 
-List<string> adminler = new List<string>() { "tugay", "tuna", "ahmet" };
+List<string> adminler = new List<string>() { "tugay", "tuna", "ahmet", "tugay" };
 string[] soyisimler = new string[] { "tuna", "ahmet", "özkan" };
 
 adminler.Add("yeniAdmin");
 
-//adminler.Remove("tugay");
 
+//adminler.Remove("tugay");
 
 
 Console.WriteLine("Silmek istediğiniz kullanıcının adını giriniz");
