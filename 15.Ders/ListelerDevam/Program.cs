@@ -30,9 +30,10 @@ for (int i = 1; i <= kSayi; i++)
 // Seçimine göre ilgili liste elemanları ekrana yazdırılır
 
 
-bool cikis = false;
+//bool cikis = false;
+bool giris = true;
 
-while (!cikis)
+while (giris)
 {
     Console.WriteLine("Tek sayıları ekrana yazdırmak için '1' basın");
     Console.WriteLine("Çift sayıları ekrana yazdırmak için '2' basın");
@@ -65,7 +66,8 @@ while (!cikis)
     }else if (secim == 4)
     {
         Console.WriteLine("İyi günler");
-        cikis = true;
+        //cikis = true;
+        giris = false;
     }
     else
     {
