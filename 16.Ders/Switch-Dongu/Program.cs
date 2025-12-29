@@ -49,8 +49,4 @@ while (giris)
         // hatalı tuşlama yapıldı densin
         Console.WriteLine("Hatalı tuşlama yaptınız!");
     }
-
-
-
-
 }
