@@ -29,3 +29,6 @@ hosgeldinIsim("Abdulsamet");
 Console.WriteLine("Lütfen adınızı giriniz: ");
 string kIsim = Console.ReadLine();
 hosgeldinIsim(kIsim);
+
+
+
