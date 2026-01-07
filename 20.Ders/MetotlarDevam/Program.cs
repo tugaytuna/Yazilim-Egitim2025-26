@@ -3,7 +3,7 @@
 
 
 
-void hesapla(int sayi1, int sayi2, string tt)
+void hesapla(int sayi1, int sayi2, string islemTipi)
 {
     if (sayi1 > 5000 || sayi2 > 5000)
     {
@@ -13,7 +13,7 @@ void hesapla(int sayi1, int sayi2, string tt)
     {
         Console.WriteLine("Hesaplama yapılıyor...");
 
-        switch (tt)
+        switch (islemTipi)
         {
             case "1":
                 // toplama
@@ -41,6 +41,8 @@ void hesapla(int sayi1, int sayi2, string tt)
 
 
 hesapla(20, 40, "3");
+
+hesapla(50, 40, "1");
 
 while (true)
 {
