@@ -21,12 +21,12 @@ void tanisma(string ad = "", bool detay = false)
 }
 
 
-//tanisma("tugay", false);
-//tanisma("izel");
+tanisma("tugay", false);
+tanisma("izel");
 
-//tanisma();
+tanisma();
 
-//tanisma("tuna", true);
+tanisma("tuna", true);
 
 double cevreHesaplama(int r,bool goster = false, double pi = 3.14)
 {
@@ -62,6 +62,7 @@ else
 
 List<int> sayilar = new List<int>() { 2, 5, 11, 24, 52, 12, 14, 27, 42 };
 List<int> sayilar2 = new List<int>() { 5, 15, 71, 11, 51, 91, 19, 22, 46 };
+
 List<int> kareleriniBul(List<int> liste)
 {
     List<int> kareler = new List<int>();
@@ -88,6 +89,8 @@ kareleriniBul(new List<int>() { 1, 2, 5, 6, 10 });
 //{
 //    Console.WriteLine(item * item);
 //}
+
+kareleriniBul(new List<int>() { 2, 5, 10 })[0];
 
 
 foreach (int item in kareleriniBul(sayilar))
