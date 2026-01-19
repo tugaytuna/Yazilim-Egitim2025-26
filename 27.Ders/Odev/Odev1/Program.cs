@@ -8,17 +8,31 @@ namespace Odev1
 {
     internal class Program
     {
-        class BankaHesabi
+        public class BankaHesabi
         {
-            int HesapNo;
-            string SahipAdi;
-            decimal Bakiye;
+            public int HesapNo;
+            public string SahipAdi;
+            public decimal Bakiye;
         }
 
 
         static void Main(string[] args)
         {
             string secim = "0";
+
+            BankaHesabi bankahesabi1 = new BankaHesabi();
+            bankahesabi1.SahipAdi = "Elif Sezgin";
+            bankahesabi1.Bakiye = 500;
+            bankahesabi1.HesapNo = 142365;
+
+            List<BankaHesabi> hesaplar = new List<BankaHesabi>() { new BankaHesabi() { HesapNo = 125921, Bakiye = 100, SahipAdi = "Tugay Tuna" }, new BankaHesabi() { HesapNo = 154264, Bakiye = 200, SahipAdi = "Samet Çakan" } };
+
+            hesaplar.Add(bankahesabi1);
+
+
+
+
+
 
             while (secim != "4")
             {
@@ -32,25 +46,137 @@ namespace Odev1
                 switch (secim)
                 {
                     case "1":
-                        // hesap bilgileri göster
+                        hesapBilgileriGoster();
                         break;
                     case "2":
-                        // para çek
+                        paraCek();
                         break;
                     case "3":
-                        // para yatır
+                        paraYatir();
                         break;
                     case "4":
-                        // uygulamadan çıkış
+                        Console.WriteLine("Oturumunuz başarılı bir şekilde sonlandırılmıştır.");
                         break;
                     default:
-                        // hatalı tuşlama
+                        Console.WriteLine("Hatalı tuşlama yaptınız, tekrar deneyiniz.");
                         break;
                 }
 
+            }
 
+            void hesapBilgileriGoster()
+            {
+                Console.Clear();
+                Console.WriteLine("Hesap numaranızı giriniz:");
+                int hesapnumara = int.Parse(Console.ReadLine());
+
+                //bool bulundu = false;
+
+                BankaHesabi account = hesaplar.Find(item => item.HesapNo == hesapnumara);
+
+                if (account == null)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Aradığınız hesap bulunamadı!");
+                    Console.ResetColor();
+                }
+                else
+                {
+                    Console.WriteLine("Hesap sahibinin biglileri: " + account.SahipAdi);
+                    Console.WriteLine(account.HesapNo + " numaralı hesabın bakiyesi: " + account.Bakiye + " TL");
+                }
+
+                  
+
+                //foreach (BankaHesabi item in hesaplar)
+                //{
+                //    if (hesapnumara == item.HesapNo)
+                //    {
+                //        bulundu = true;
+
+                //        Console.WriteLine("Hesap sahibinin biglileri: " + item.SahipAdi);
+                //        Console.WriteLine(item.HesapNo + " numaralı hesabın bakiyesi: " + item.Bakiye + " TL");
+
+                //        break;
+                //    }
+                    
+                //}
+
+                //if (!bulundu)
+                //{
+                //    Console.ForegroundColor = ConsoleColor.Red;
+                //    Console.WriteLine("Aradığınız hesap bulunamadı!");
+                //    Console.ResetColor();
+                //}
 
             }
+
+
+
+
+            void paraCek() 
+            {
+                Console.Clear();
+                Console.WriteLine("Hesap numaranızı giriniz:");
+                int hesapnumara = int.Parse(Console.ReadLine());
+
+                bool bulundu = false;
+
+                foreach (BankaHesabi item in hesaplar)
+                {
+                    if (hesapnumara == item.HesapNo)
+                    {
+                        bulundu = true;
+
+                        Console.WriteLine("Lütfen çekmek istediğiniz tutarı giriniz:");
+                        int tutar = int.Parse(Console.ReadLine()); // double tipinde tutabilirim
+                        item.Bakiye -= tutar; //bakiye kontrolü
+                        Console.WriteLine("İşlem başarıyla gerçekleşti.");
+                        break;
+                    }
+                }
+
+                if (!bulundu)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Aradığınız hesap bulunamadı!");
+                    Console.ResetColor();
+                }
+            }
+
+            void paraYatir() 
+            {
+                Console.Clear();
+                Console.WriteLine("Hesap numaranızı giriniz:");
+                int hesapnumara = int.Parse(Console.ReadLine());
+
+                bool bulundu = false;
+
+                foreach (BankaHesabi item in hesaplar)
+                {
+                    if (hesapnumara == item.HesapNo)
+                    {
+                        bulundu = true;
+
+                        Console.WriteLine("Lütfen yatırmak istediğiniz tutarı giriniz:");
+                        int tutar = int.Parse(Console.ReadLine()); // double tipinde tutabilirim
+                        item.Bakiye += tutar;
+                        Console.WriteLine("İşlem başarıyla gerçekleşti.");
+                        break;
+                    }
+                }
+
+                if (!bulundu)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Aradığınız hesap bulunamadı!");
+                    Console.ResetColor();
+                }
+            }
+
+
+
+
 
 
 
