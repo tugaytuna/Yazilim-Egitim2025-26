@@ -131,6 +131,7 @@ namespace Odev1
                         Console.WriteLine("Lütfen çekmek istediğiniz tutarı giriniz:");
                         int tutar = int.Parse(Console.ReadLine()); // double tipinde tutabilirim
                         item.Bakiye -= tutar; //bakiye kontrolü
+                        //item.Bakiye = item.Bakiye - tutar;
                         Console.WriteLine("İşlem başarıyla gerçekleşti.");
                         break;
                     }
