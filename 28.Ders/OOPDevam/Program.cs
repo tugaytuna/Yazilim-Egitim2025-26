@@ -16,6 +16,7 @@ namespace OOPDevam
             public int OkulNo { get; set; }
             public double OrtalamaNot { get; set; }
 
+
             public Ogrenci()
             {
 
@@ -72,7 +73,7 @@ namespace OOPDevam
             Ogrenci yeni = new Ogrenci("tuna");
             yeni.Ad = "Tugay";
 
-
+            
 
             Console.WriteLine("Tüm öğrencilerin bilgileri listeleniyor...");
             foreach (Ogrenci ogr in ogrenciler)
