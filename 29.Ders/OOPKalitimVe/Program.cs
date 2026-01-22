@@ -32,12 +32,14 @@ namespace OOPKalitimVe
                 }
             }
 
+            public string Meslek { get; set; }
 
 
             public void BilgiYazdir()
             {
                 Console.WriteLine("Bu kişinin adı: " + Ad);
                 Console.WriteLine("Bu kişinin yaşı: " + Yas);
+                Console.WriteLine("Bu kişinin mesleği: " + Meslek);
             }
 
         }
@@ -58,7 +60,7 @@ namespace OOPKalitimVe
         {
             Console.WriteLine("Bu uygulamada Kişi -> Öğrenci ve Öğretmen nesne örnekli bir proje yapacağız.");
 
-            Kisi kisi1 = new Kisi() { Ad = "TugayKişisi", Yas = 18 };
+            Kisi kisi1 = new Kisi() { Ad = "TugayKişisi", Yas = 18, Meslek = "Yok"};
             
 
 
@@ -70,12 +72,14 @@ namespace OOPKalitimVe
             ogrenci1.Ad = "Elif";
             ogrenci1.Yas = 19;
             ogrenci1.OkulNo = 359;
+            ogrenci1.Meslek = "Öğrenci";
             
 
             Ogretmen ogretmen1 = new Ogretmen();
             ogretmen1.Ad = "Tugay";
             ogretmen1.Yas = 39;
             ogretmen1.Brans = "Yazılım";
+            ogretmen1.Meslek = "Öğretmen";
 
 
             List<int> liste1 = new List<int>();
@@ -87,8 +91,9 @@ namespace OOPKalitimVe
            
             Ogrenci ogr = new Ogrenci();
             ogr.Ad = "Samet";
-            ogr.Yas = 3;
+            ogr.Yas = -20;
             ogr.OkulNo = 121;
+            ogr.Meslek = "Öğrenci";
 
 
             liste2.Add(ogr);
