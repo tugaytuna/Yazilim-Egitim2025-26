@@ -76,6 +76,7 @@ namespace ToolsKontrol
                 if (eleman.KullaniciIsim == txtKullaniciAdi.Text && eleman.KullaniciSifre == txtSifre.Text)
                 {
                     MessageBox.Show("Giriş yapıldı!");
+
                     listBoxDoldur();
                 }
             }
@@ -89,7 +90,7 @@ namespace ToolsKontrol
 
             Kullanici secilenKullanici = kullanicilar.Find(item => item.KullaniciIsim == listBox1.SelectedItem.ToString());
 
-            label1.Text = secilenKullanici.MailAdresi;
+            label1.Text = secilenKullanici.KullaniciSifre;
         }
     }
 }
