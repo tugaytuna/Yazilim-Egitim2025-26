@@ -31,12 +31,13 @@ namespace Ornekler10Subat
 
                 DialogResult result = MessageBox.Show(msg, msg_baslik, MessageBoxButtons.YesNo, MessageBoxIcon.Information);
 
-              
+        
 
                 if (result == DialogResult.Yes)
                 {
                     KisiselBilgiler kisiselBilgilerForm = new KisiselBilgiler(txtKullaniciAdi.Text);
                     kisiselBilgilerForm.KullaniciAdi = txtKullaniciAdi.Text;
+                   
                     DialogResult formResult = kisiselBilgilerForm.ShowDialog();
 
                     if (formResult == DialogResult.OK)
