@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+    string baslik = "Tugay C# Başlık";
+
+
+    int sayi1 = 10 * 142;
+
+
+
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your site's privacy policy.</p>
+
+<h2>@baslik</h2>
+<h3>@sayi1.ToString()</h3>
+
+   
+    <ol type="I">
+    @for (int i = 0; i<10; i++)
+    {
+        <li>@i</li>
+    }
+    </ol>
+
+
+    
+
+
+
+@{
+    Console.WriteLine("Test console testi");
+}
