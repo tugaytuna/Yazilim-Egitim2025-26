@@ -9,8 +9,8 @@ namespace KisiselWebSitesi.Controllers
         public IActionResult Index()
         {
             //ViewData["KullaniciAdi"] = "Tugay Tuna";
-            ViewData["KullaniciAdi"] = "Ahmet";
-            ViewBag.TelNo = "05555555";
+            ViewData["KullaniciAdi"] = "Tugay Tuna";
+            ViewBag.TelNo = "0555555555";
             return View();
         }
 
@@ -22,6 +22,7 @@ namespace KisiselWebSitesi.Controllers
 
         public IActionResult AboutMe()
         {
+            Console.WriteLine("Home controller altýndaki AboutMe tetiklendi!");
             return View();
         }
 
