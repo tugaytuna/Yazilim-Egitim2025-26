@@ -1,0 +1,66 @@
+﻿@model CRUDIslemleri.Models.Ogrenci
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Ogrenci</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.OgrenciIsim)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.OgrenciIsim)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.OgrenciNo)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.OgrenciNo)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Sinif)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Sinif)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Not1)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Not1)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Not2)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Not2)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Not3)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Not3)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Gecti)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Gecti)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Aktif)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Aktif)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.OgrenciId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

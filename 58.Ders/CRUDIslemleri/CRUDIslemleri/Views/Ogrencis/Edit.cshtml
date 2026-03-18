@@ -1,0 +1,69 @@
+﻿@model CRUDIslemleri.Models.Ogrenci
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Ogrenci</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="OgrenciId" />
+            <div class="form-group">
+                <label asp-for="OgrenciIsim" class="control-label"></label>
+                <input asp-for="OgrenciIsim" class="form-control" />
+                <span asp-validation-for="OgrenciIsim" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OgrenciNo" class="control-label"></label>
+                <input asp-for="OgrenciNo" class="form-control" />
+                <span asp-validation-for="OgrenciNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Sinif" class="control-label"></label>
+                <input asp-for="Sinif" class="form-control" />
+                <span asp-validation-for="Sinif" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Not1" class="control-label"></label>
+                <input asp-for="Not1" class="form-control" />
+                <span asp-validation-for="Not1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Not2" class="control-label"></label>
+                <input asp-for="Not2" class="form-control" />
+                <span asp-validation-for="Not2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Not3" class="control-label"></label>
+                <input asp-for="Not3" class="form-control" />
+                <span asp-validation-for="Not3" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Gecti" /> @Html.DisplayNameFor(model => model.Gecti)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Aktif" /> @Html.DisplayNameFor(model => model.Aktif)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

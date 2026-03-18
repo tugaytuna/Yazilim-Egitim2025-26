@@ -1,0 +1,77 @@
+﻿@model IEnumerable<CRUDIslemleri.Models.Ogrenci>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.OgrenciIsim)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OgrenciNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sinif)
+            </th>
+            <th>
+                Vize 1
+            </th>
+            <th>
+                Vize 2
+            </th>
+            <th>
+                Final
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Gecti)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Aktif)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.OgrenciIsim)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OgrenciNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sinif)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Not1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Not2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Not3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Gecti)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Aktif)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.OgrenciId">Düzenle</a> |
+                <a asp-action="Details" asp-route-id="@item.OgrenciId">Detaylar</a> |
+                <a asp-action="Delete" asp-route-id="@item.OgrenciId">Sil</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
