@@ -22,6 +22,7 @@ namespace KitapDB
         // GET: Kitaps
         public async Task<IActionResult> Index()
         {
+            ViewBag.Liste = _context.Kitap.ToList();
             return View(await _context.Kitap.ToListAsync());
         }
 
@@ -34,9 +35,10 @@ namespace KitapDB
             }
 
             var kitap = await _context.Kitap
-                .FirstOrDefaultAsync(m => m.KitapId == id);
+                .FirstOrDefaultAsync(k=> k.KitapId == id);
             if (kitap == null)
             {
+                //return View("Index");
                 return NotFound();
             }
 
@@ -54,7 +56,7 @@ namespace KitapDB
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("KitapId,Isim,Yazar,Tur,YayınEvi,SayfaSayisi,Okundu")] Kitap kitap)
+        public async Task<IActionResult> Create(Kitap kitap)
         {
             if (ModelState.IsValid)
             {
