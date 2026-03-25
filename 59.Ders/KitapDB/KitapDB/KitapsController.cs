@@ -62,6 +62,7 @@ namespace KitapDB
             {
                 _context.Add(kitap);
                 await _context.SaveChangesAsync();
+                //_context.SaveChanges();
                 return RedirectToAction(nameof(Index));
             }
             return View(kitap);
@@ -88,7 +89,7 @@ namespace KitapDB
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("KitapId,Isim,Yazar,Tur,YayınEvi,SayfaSayisi,Okundu")] Kitap kitap)
+        public async Task<IActionResult> Edit(int id, Kitap kitap)
         {
             if (id != kitap.KitapId)
             {
@@ -145,6 +146,9 @@ namespace KitapDB
             if (kitap != null)
             {
                 _context.Kitap.Remove(kitap);
+                //kitap.Gorunur = false;
+                //_context.Update(kitap);
+                //_context.SaveChanges();
             }
 
             await _context.SaveChangesAsync();
